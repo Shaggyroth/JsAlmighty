@@ -3,4 +3,8 @@ function changeColor() {
   document.getElementById("colorChange").style.color = randomColor;
 }
 
-function generateNickname() {}
+function generateNickname() {
+  document.getElementById("puttoout").value;
+  const gInput = document.getElementById("puttoout").value;
+  console.log(gInput);
+}
