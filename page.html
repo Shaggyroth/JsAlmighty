@@ -5,11 +5,32 @@
   </head>
 
   <body>
-    <div class="container">
-      <h1 id="header">Color to change</h1>
+    <div class="Header">
+      <h1>Krumla Page</h1>
+    </div>
+
+    <div class="containerForButton">
+      <h1 id="colorChange">Color to change</h1>
       <button class="changerButtons" onclick="changeColor()">
         Change BGC!
       </button>
+    </div>
+
+    <div class="containerForInput">
+      <h1>Nickname Generator</h1>
+      <div class="input">
+        <input
+          type="text"
+          id="Name"
+          name="Name"
+          placeholder="Put your name here!"
+        />
+      </div>
+      <div class="nicknameButton">
+        <button class="changerButtons" onclick="generateNickname()">
+          Generate Nickname!
+        </button>
+      </div>
     </div>
   </body>
 </html>

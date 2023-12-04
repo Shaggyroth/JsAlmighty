@@ -1,8 +1,29 @@
-.container {
+.header {
   text-align: center;
+  margin-top: 50px;
+}
+
+.containerForButton {
+  text-align: center;
+  float: left;
+  margin-top: 10%;
+  margin-left: 20%;
+  position: relative;
+}
+
+.containerForInput {
+  text-align: center;
+  float: right;
+  margin-top: 10%;
+  margin-right: 20%;
+  position: relative;
 }
 
 .changerButtons {
   width: 200px;
   height: 75px;
+}
+
+.nicknameButton {
+  margin-top: 5%;
 }
